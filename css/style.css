@@ -1,0 +1,48 @@
+html, body, .jumbotron, .container{
+	height: 100%;
+
+}
+body{
+	background-color: black;
+	color: white;
+}
+.container{
+	margin: 0 auto;
+	padding-top: 100px;
+	background-image: url("../img/board.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;;
+}
+.sub-container{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.jumbotron{
+	margin-bottom: -20px;
+	background-image: url("../img/bar.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pDisplay{
+	background-color: black;
+
+	border: 1px solid lightgrey;
+}
+input{
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	width: 50px;
+	color: black;
+}
+.winner{
+	background-color: green;
+
+	border: 1px solid yellow;
+}
+.button-spacer{
+	margin: 5px;
+}
